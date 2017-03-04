@@ -1,0 +1,45 @@
+{
+  "name": "generator-frozen-config",
+  "version": "0.1.0",
+  "description": "自动生成开发时所需用到的一些工具的配置文件",
+  "files": [
+    "generators"
+  ],
+  "scripts": {
+    "test": "mocha"
+  },
+  "keywords": [
+    "yeoman-generator",
+    "config",
+    "configuration",
+    "editorconfig",
+    "eslint",
+    "stylelint",
+    "typescript",
+    "tslint",
+    "iconfont",
+    "gitignore"
+  ],
+  "author": "nice-body <neone2011@live.com>",
+  "license": "MIT",
+  "devDependencies": {
+    "@types/mocha": "^2.2.39",
+    "@types/yeoman-generator": "^1.0.1",
+    "cz-conventional-changelog": "^2.0.0",
+    "eslint": "^3.17.0",
+    "eslint-config-airbnb-base": "^11.1.1",
+    "eslint-plugin-import": "^2.2.0",
+    "mocha": "^3.2.0",
+    "yeoman-assert": "^3.0.0",
+    "yeoman-test": "^1.6.0"
+  },
+  "dependencies": {
+    "request": "^2.79.0",
+    "yeoman-generator": "^1.1.0"
+  },
+  "config": {
+    "commitizen": {
+      "path": "./node_modules/cz-conventional-changelog"
+    }
+  }
+}
