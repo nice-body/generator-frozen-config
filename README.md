@@ -12,6 +12,18 @@
 - font.css([iconfont](http://www.iconfont.cn/))
 - .gitignore(nodejs)
 
-# license
+# 使用方法
+```shell
+# 没有安装yeoman的话，需要先安装。
+npm i -g yo
+
+# 安装generator-frozen-config。
+npm i -g nice-body/generator-frozen-config
+
+# 以上都安装完毕后就可以直接使用了。
+yo frozen-config
+```
+
+# 许可
 
 MIT
